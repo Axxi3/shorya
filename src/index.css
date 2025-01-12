@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+  font-family: "Inter", sans-serif;
+}
+
+.negative-gap {
+  gap: -10px; /* Adjust as needed */
+}
