@@ -10,7 +10,7 @@ import logo from './assets/logo.png';
 function App() {
   return (
     <>
-      <div className="flex flex-col w-full h-auto min-h-[100vh] items-center justify-start mt-8 px-4">
+      <div className="flex flex-col w-full h-auto min-h-[100vh] items-center justify-start mt-8 px-4 fade-in">
         {/* Heading Section */}
         <div className="flex flex-col items-center justify-center text-center">
           <h1
@@ -40,11 +40,19 @@ function App() {
         <div className="flex flex-wrap items-center justify-center gap-4 mt-6">
           <SocialBadge img="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/225px-Instagram_logo_2022.svg.png" name="@shouryathour" link={"https://www.instagram.com/shouryathour"}/>
           <SocialBadge img={link} name="@shouryathour" link={"https://www.linkedin.com/in/shouryathour"}/>
-          <SocialBadge img={you} name="@shouryathour" link={"https://shouryathour.beehiiv.com/subscribe"}/>
+          <SocialBadge img={you} name="@shouryathour" link={"https://youtube.com/@shouryathour"}/>
         </div>
 
         {/* Card Section */}
         <div className="flex flex-col gap-3 mt-12  ">
+
+        <Card
+            img={whatsapp}
+            head="Whatsapp community"
+            sub="Connect with me directly on my community"
+            text="Join Now"
+            link="https://chat.whatsapp.com/IHGKuI1v716AMe9HVnxiDb"
+          />
 
         <Card
             img={email}
@@ -53,13 +61,7 @@ function App() {
             text="Sign Up"
             link={"https://shouryathour.beehiiv.com/subscribe"}
           />
-        <Card
-            img={whatsapp}
-            head="Whatsapp community"
-            sub="Connect with me directly on my community"
-            text="Join Now"
-            link="https://chat.whatsapp.com/IHGKuI1v716AMe9HVnxiDb"
-          />
+        
          
          
           <Card
