@@ -21,7 +21,7 @@ function App() {
               WebkitTextFillColor: "transparent",
             }}
           >
-            I build cool companies,
+            I help cool people,
           </h1>
 
           <h1
@@ -32,7 +32,7 @@ function App() {
               WebkitTextFillColor: "transparent",
             }}
           >
-            with cool people.
+            grow their business.
           </h1>
         </div>
 
@@ -45,6 +45,14 @@ function App() {
 
         {/* Card Section */}
         <div className="flex flex-col gap-3 mt-12  ">
+
+        <Card
+            img={email}
+            head="E-mail list"
+            sub="Receive emails with valuable knowledge templates and more"
+            text="Sign Up"
+            link={"https://shouryathour.beehiiv.com/subscribe"}
+          />
         <Card
             img={whatsapp}
             head="Whatsapp community"
@@ -52,13 +60,7 @@ function App() {
             text="Join Now"
             link="https://chat.whatsapp.com/IHGKuI1v716AMe9HVnxiDb"
           />
-          <Card
-            img={email}
-            head="E-mail list"
-            sub="Receive emails with valuable knowledge templates and more"
-            text="Sign Up"
-            link={""}
-          />
+         
          
           <Card
             img={logo}
